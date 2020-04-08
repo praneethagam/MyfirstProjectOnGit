@@ -1,0 +1,308 @@
+
+=======
+
+
+
+
+
+
+
+
+				Todays Aim
+
+        =====================
+
+			
+
+			1. We will understand how Java => J2EE
+
+									
+
+										Java Programming language.   If else for loops array list
+
+										J2EE. :  We are using java programming language for App/Web development
+
+
+
+										JSP Servlet EJBS.   => J2EE
+
+						
+
+											JSP. ==>.  Thymeleaf
+
+											Servlet => @Controller
+
+											EJB   => Normal Spring Beans
+
+
+
+										Angular(Is a better way of creating website UI) => 	@Controller => DB
+
+
+
+							Frontend => UI ……HTML..Javascript… CSS Angular Thymeleaf JSP
+
+							Backend.  ===> DB Controller RestController Normal java classes
+
+
+
+							Servlet => Struts =>Spring
+
+
+
+								Old developers had to learn
+
+								============
+
+								JDBC
+
+								Servlet
+
+								Hibernate
+
+								Struts
+
+								SOAP
+
+								Jersey
+
+								EJB
+
+
+
+								
+
+					
+
+
+
+					
+
+				
+
+				
+
+			2. Spring Framework.  => 100 jar files…..different from your JRE (Basic Java libraries)
+
+						* Spring Boot. :  It provides a nice web server Tomcat…..and then 
+
+												spring boot does default configuration for all below modules
+
+												You can change it in application.properties
+
+
+
+						EmployeeRepository e = new EmployeeRepository();
+
+
+
+						@Autowired
+
+						EmployeeRepository e ;	
+
+							
+
+						* Spring Dependency injection.  Another way of creating object
+
+						* Spring Web Module./MVC :   =>. Website		@Controller @RequestMapping 
+
+						* Spring Rest Module :   => Ebservices		@RestController @GET @PathParam	
+
+						* Spring JPA Module. :   => Replaces JDBC   @Entity @Id @Repository
+
+						* Spring Security Module. =>. Postman or any client will need security key 
+
+																to access web services and website
+
+
+
+
+
+
+
+				 Java Persistence APi
+
+
+
+								JPA
+
+										save()/ or Update
+
+										
+
+										delete()
+
+										findbyid()
+
+										final			
+
+
+
+						JDBC. 
+
+
+
+									Connection c
+
+												c.connect
+
+												c. Close	
+
+									Statement s
+
+												s. executeQuery 
+
+												s. executeUpdate
+
+									PreparedStatement
+
+									CallableStatement
+
+				
+
+									Resultset r
+
+												r.getString(ColumnIndex);
+
+
+
+						Hibernate
+
+									Session s
+
+											s.start()
+
+											s.save()
+
+											s.delete()
+
+											s.find()
+
+
+
+						iBatis
+
+											
+
+=>. JPA Interfaces => Hibernate that implemented JPA HQL =>iBatis
+
+
+
+
+
+						Spring data JPA (Hibernate).      CRUD functions
+
+
+
+								Few more Annotations
+
+									
+
+							
+
+
+
+
+
+							Spring JPA
+
+											1. Model CRUD with  Employee
+
+											2. Repository Interface
+
+											3. Setup url username/password in propertiesfile
+
+											4. Create your controller/RestController and use Repository	
+
+											
+
+
+
+
+
+
+
+
+
+						VersionControl systems/ Source safes / Source repositories
+
+						
+
+					GIT :  Where you save your code from eclipse or intelliJ
+
+
+
+					CVS/SVN.  ====> GIT
+
+
+
+									Online UI GIT
+
+
+
+
+
+								https://github.com/DevIdhasoft/MyGItProject.git
+
+
+
+							Step 1:  Get the project on your computer
+
+										git clone https://github.com/DevIdhasoft/MyGItProject.git
+
+								You will usually create new classes or modify existing code
+
+
+
+									git pull
+
+
+
+							Step 2:  git add .
+
+
+
+							
+
+							Step 3:  git commit -m “I am changing bank code for SCR# 1153: modify loan module”
+
+
+
+							
+
+							Step 4:   git push
+
+										
+
+
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+						 Where do you store your gold. => Vault ( Secure place)
+
+
+
+					
+
+			AWS
+
+			=======
+
+					AWS Code Commit  ===> GIT. (Behind the scene code Commit uses git)
+
+					AWS Pipeline.  =>. Commit ====> ElasticBeank
+
